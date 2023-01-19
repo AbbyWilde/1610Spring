@@ -1,0 +1,13 @@
+using System;
+namespace HelloWorld
+    { class Program
+    {static void Main(string[] args)}
+    {Console.Writeline("HelloWorld!");}
+    }
+
+string name= "John";
+    Console.Writeline (name);
+
+int myNum=15;
+    myNum =20; //myNum now is 20
+Console.Writeline(myNum);
