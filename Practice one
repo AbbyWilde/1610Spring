@@ -1,8 +1,14 @@
+public class Practiceone 
+{
+    public int number;
+}
+
+
 using System;
 namespace HelloWorld
-    { class Program
-    {static void Main(string[] args)}
-    {Console.Writeline("HelloWorld!");}
+    { class program 
+    {void Main(string[] args)}
+    {Console.WriteLine("HelloWorld!");}
     }
 
 string name= "John";
