@@ -1,0 +1,12 @@
+using System;
+public class Program
+{
+    public void Main()
+    {
+        string[] cars= ("Mustang", "Camero", "HelCat", "Corvette", "Viper", "Suberu");
+        Console.WriteLine(cars.Length);
+        foreach(var cars in cars){
+            Console.WriteLine("I love my" + car + ".")
+        }
+    }
+}
