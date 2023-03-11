@@ -27,3 +27,47 @@ public class MonoBehavior : MonoBehaviour
         
     }
 }
+
+using UnityEngine;
+using System.Collections;
+
+public class Class : MonoBehaviour
+{
+    void OnBecameInvisible()
+    {
+        enabled = false;
+    }
+}
+
+using UnityEngine;
+using System.Collections;
+
+public class Class : MonoBehaviour
+{
+    void OnBecameVisible()
+    {
+        enabled = true;
+    }
+}
+
+public class script: MonoBehaviour
+{
+    void DestroyGameObject()
+    {
+        Destroy(gameObject);
+    }
+
+    void DestroyScriptInstance()
+    {
+        Destroy(this);
+    }
+
+    void DestroyComponent()
+    {
+        Destroy(GetComponent<Rigidbody>());
+    }
+
+    void DestroyObjectDelayed()
+    {
+       Destroy(gameObject,10 );
+    }
